@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20211006
+FROM ubuntu:focal-20240216
 RUN apt-get update && \
     apt-get install -y software-properties-common curl && \
     mkdir -p /opt/oraclejdk && \
